@@ -27,7 +27,7 @@ int main()
 
     horasTrabalhadas = salarioMinimo / 2;
     salarioBruto = numeroHoras * horasTrabalhadas;
-    imposto = salarioBruto *3/100;
+    imposto = salarioBruto * 3/100;
     salarioReceber = salarioBruto - imposto;
 
     cout << "Salario Bruto: " << salarioBruto << endl;
